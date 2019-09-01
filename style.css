@@ -1,7 +1,7 @@
 
 /*Intro text color & background*/
 .intro{
-  color: #000000;
+  color: #BFBF51;
   text-align: center;
   background: #1100ff;
 }
@@ -52,7 +52,7 @@ body{
     font-weight: 400;
     letter-spacing: 1px;
 }
-/*Make paharagraph info be big*/
+/*Make paragraph info be big*/
 .body-text {
     font-size: 1.3em;
     font-weight: 400;
