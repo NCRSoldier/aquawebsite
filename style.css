@@ -3,13 +3,13 @@
 .intro{
   color: #BFBF51;
   text-align: center;
-  background: #333333;
+  background: #1100ff;
 }
 body{
-  background:#333333;
+  background:#1100ff;
   margin: 0;
   padding: 0px;
-  color: white;
+  color: blue;
 }
 /*Navbar information*/
 .navbar {
