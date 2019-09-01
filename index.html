@@ -143,7 +143,7 @@
 
       </div>
     <script>
-var i=0,txt="Introducing TurtleGold",speed=50;function typeWriter(){i<txt.length&&(document.getElementById("demo").innerHTML+=txt.charAt(i),i++,setTimeout(typeWriter,speed))}typeWriter();function getPrice(){var a=new XMLHttpRequest;a.open("GET","https://tradecx.io/api/tickers/trtgdoge",!1);a.send(null);try{var b=JSON.parse(a.responseText)}catch(c){b=null}return b?b.ticker.last:0}function getP(){document.getElementById("result").innerHTML=getPrice()+" Doge"}setInterval(getP(),1E3);
+var i=0,txt="Introducing AquaGold",speed=50;function typeWriter(){i<txt.length&&(document.getElementById("demo").innerHTML+=txt.charAt(i),i++,setTimeout(typeWriter,speed))}typeWriter();function getPrice(){var a=new XMLHttpRequest;a.open("GET","https://tradecx.io/api/tickers/trtgdoge",!1);a.send(null);try{var b=JSON.parse(a.responseText)}catch(c){b=null}return b?b.ticker.last:0}function getP(){document.getElementById("result").innerHTML=getPrice()+" Doge"}setInterval(getP(),1E3);
     </script>
 
   </body>
